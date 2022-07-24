@@ -3,7 +3,7 @@ name: Build
 on:
   push:
     branches:
-    - master
+    - "fix-building-wheel"
 
 jobs:
   build_wheels:
