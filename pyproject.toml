@@ -1,0 +1,36 @@
+[build-system]
+requires = [
+    "setuptools >= 61.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spidev"
+version = "3.5"
+authors = [
+    { name = "Volker Thoms", email = "unconnected@gmx.de"}
+]
+maintainers = [
+    { name = "Stephen Caudle", email = "scaudle@doceme.com"},
+    { name = "Christian Fischerauer", email = "christian.fischerauer@live.com"}
+]
+description = "Python bindings for Linux SPI access through spidev"
+readme = "README.md"
+license = { file="LICENSE" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Operating System :: POSIX :: Linux",
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 2.6",
+    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development",
+    "Topic :: System :: Hardware",
+    "Topic :: System :: Hardware :: Hardware Drivers"
+]
+
+[project.urls]
+"Homepage" = "http://github.com/doceme/py-spidev"
+"Bug Tracker" = "http://github.com/doceme/py-spidev/issues"
